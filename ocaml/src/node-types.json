@@ -5414,6 +5414,10 @@
     "named": false
   },
   {
+    "type": "specification",
+    "named": true
+  },
+  {
     "type": "struct",
     "named": false
   },

@@ -10591,6 +10591,10 @@
     },
     {
       "type": "SYMBOL",
+      "name": "specification"
+    },
+    {
+      "type": "SYMBOL",
       "name": "line_number_directive"
     },
     {
@@ -10604,6 +10608,10 @@
     {
       "type": "SYMBOL",
       "name": "comment"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "specification"
     },
     {
       "type": "SYMBOL",
@@ -10670,4 +10678,3 @@
     "_infix_operator"
   ]
 }
-

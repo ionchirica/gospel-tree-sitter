@@ -34,6 +34,7 @@ module.exports = grammar({
   extras: $ => [
     /\s/,
     $.comment,
+    $.specification,
     $.line_number_directive,
     $.attribute
   ],
@@ -1946,6 +1947,7 @@ module.exports = grammar({
 
   externals: $ => [
     $.comment,
+    $.specification,
     $._left_quoted_string_delimiter,
     $._right_quoted_string_delimiter,
     '"',
